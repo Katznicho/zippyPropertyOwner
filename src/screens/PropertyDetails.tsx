@@ -269,13 +269,33 @@ const PropertyDetails: React.FC<any> = () => {
                         </View>
 
                     </View>
+                    {/* owner details */}
+
+
+
+                    <View style={[generalStyles.bottomHairline, styles.hairLineStyles]} />
+
+                    {/* agent details */}
+                    <View style={[generalStyles.flexStyles, { justifyContent: 'space-between', alignItems: "center" }]} >
+                        <View>
+                            <Text style={styles.CardTitle} >Agent</Text>
+                            <Text style={styles.CardSubtitle}>{item?.agent?.name}</Text>
+                        </View>
+                        <View>
+                            <Text style={styles.CardTitle} >Phone Number</Text>
+                            <Text style={styles.CardSubtitle}>{item?.agent?.phone_number}</Text>
+                        </View>
+
+
+                    </View>
                     <TouchableOpacity
                         activeOpacity={1}
                         style={[generalStyles.loginContainer, { marginTop: 0, padding: 10 }]}
-                        onPress={() => onMakeCall(item?.owner?.phone_number)}>
-                        <Text style={generalStyles.loginText}>{'Call Owner'}</Text>
+                        onPress={() => onMakeCall(item?.agent?.phone_number)}>
+                        <Text style={generalStyles.loginText}>{'Call Agent'}</Text>
                     </TouchableOpacity>
-                    {/* owner details */}
+
+                    {/* agent details */}
 
 
                 </View>
