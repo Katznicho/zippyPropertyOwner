@@ -1,4 +1,4 @@
-export const BASE_URL = "https://zippy.risidev.com/api/v1";
+export const BASE_URL = "https://dashboard.zippyug.com/api/v1";
 
 export const LOGIN = `${BASE_URL}/auth/login`;
 export const REGISTER = `${BASE_URL}/auth/registerCommunity`;
@@ -51,7 +51,7 @@ export const GET_REGISTERED_OWNER_PROPERTY_BY_PAGE = `${BASE_URL}/getRegisterPro
 export const GET_ALL_CATEGORIES = `${BASE_URL}/getAllCategories`;
 export const GET_ALL_SERVICES = `${BASE_URL}/getAllServices`;
 export const GET_ALL_AMENTITIES = `${BASE_URL}/getAllAmenities`;
-export const  GET_ALL_PROPERTY_STATUSES = `${BASE_URL}/getAllPropertyStatuses`
+export const GET_ALL_PROPERTY_STATUSES = `${BASE_URL}/getAllPropertyStatuses`
 export const GET_ALL_CURRENCIES = `${BASE_URL}/getAllCurrencies`
 export const GET_ALL_PAYMENT_PERIODS = `${BASE_URL}/getAllPaymentPeriods`
 
