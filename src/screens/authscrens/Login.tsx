@@ -77,6 +77,8 @@ const Login = () => {
       body.append('phone_number', phoneNumber);
       body.append('password', password);
 
+      console.log(LOGIN)
+
       fetch(`${LOGIN}`, {
         method: 'POST',
         headers,

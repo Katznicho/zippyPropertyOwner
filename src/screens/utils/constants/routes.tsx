@@ -1,18 +1,18 @@
 export const BASE_URL = "https://dashboard.zippyug.com/api/v1";
 
-export const LOGIN = `${BASE_URL}/auth/login`;
-export const REGISTER = `${BASE_URL}/auth/registerCommunity`;
-export const LOGOUT = `${BASE_URL}/auth/logout`;
-export const FORGOT_PASSWORD = `${BASE_URL}/auth/requestPasswordReset`;
-export const RESET_PASSWORD = `${BASE_URL}/auth/resetPassword`;
-export const RESEND_OTP = `${BASE_URL}/auth/resendOTP`
-export const VERIFY_EMAIL = `${BASE_URL}/auth/verifyEmail`
-export const SAVE_DEVICE_INFO = `${BASE_URL}/auth/saveDeviceInfo`
-export const SETUP_WALLET_ACCOUNT = `${BASE_URL}/auth/setUpUserWalletAccount`;
-export const UPDATEWALLETBALANCE = `${BASE_URL}/auth/updateShowWalletBalance`
-export const UPDATEUSERAVATAR = `${BASE_URL}/auth/updateUserAvatarUrl`
-export const UPDATE_USER_LOCATION = `${BASE_URL}/auth/updateUserLocation`;
-export const UPDATE_PASSWORD_FIRST_USER = `${BASE_URL}/auth/resetPasswordFirstUser`;
+export const LOGIN = `${BASE_URL}/property_owner/login`;
+export const REGISTER = `${BASE_URL}/property_owner/registerCommunity`;
+export const LOGOUT = `${BASE_URL}/property_owner/logout`;
+export const FORGOT_PASSWORD = `${BASE_URL}/property_owner/requestPasswordReset`;
+export const RESET_PASSWORD = `${BASE_URL}/property_owner/resetPassword`;
+export const RESEND_OTP = `${BASE_URL}/property_owner/resendOTP`
+export const VERIFY_EMAIL = `${BASE_URL}/property_owner/verifyEmail`
+export const SAVE_DEVICE_INFO = `${BASE_URL}/property_owner/saveDeviceInfo`
+export const SETUP_WALLET_ACCOUNT = `${BASE_URL}/property_owner/setUpUserWalletAccount`;
+export const UPDATEWALLETBALANCE = `${BASE_URL}/property_owner/updateShowWalletBalance`
+export const UPDATEUSERAVATAR = `${BASE_URL}/property_owner/updateUserAvatarUrl`
+export const UPDATE_USER_LOCATION = `${BASE_URL}/property_owner/updateUserLocation`;
+export const UPDATE_PASSWORD_FIRST_USER = `${BASE_URL}/property_owner/resetPasswordFirstUser`;
 
 //payments
 export const PROCESSORDER = `${BASE_URL}/processOrder`;
