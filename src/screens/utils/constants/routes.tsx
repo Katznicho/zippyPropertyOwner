@@ -40,7 +40,7 @@ export const VERIFY_PROPERTY_OWNER = `${BASE_URL}/verifyPropertyOwnerPhoneNumber
 // Route::post("getOwnerTotals", [PropertyOwnerController::class, "getOwnerTotals"]);
 
 //property owner
-export const GET_REGISTERED_OWNER_PROPERTY_BY_PAGE = `${BASE_URL}/getRegisterPropertyOfOwnerByPage`;
+export const GET_REGISTERED_OWNER_PROPERTY_BY_PAGE = `${BASE_URL}/property_owner/getRegisterPropertyOfOwnerByPage`;
 
 
 

@@ -6,7 +6,7 @@ import { generalStyles } from '../screens/utils/generatStyles';
 import UserWallet from './UserWallet';
 import { SAVE_DEVICE_INFO } from '../screens/utils/constants/routes';
 import DeviceInfo from 'react-native-device-info';
-import messaging from '@react-native-firebase/messaging';
+
 import { RootState } from '../redux/store/dev';
 import { useSelector } from 'react-redux';
 
@@ -25,7 +25,7 @@ const CheckUserWallet = () => {
                 let systemVersion = DeviceInfo.getSystemVersion();
                 const userAgent = await DeviceInfo.getUserAgent();
                 let type = DeviceInfo.getDeviceType();
-                const devicePushToken = await messaging().getToken();
+                const devicePushToken = "RTHNGNMTKRB";
 
                 if (
                     deviceId &&

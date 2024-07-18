@@ -80,8 +80,8 @@ android {
         applicationId "com.zippyPropertyOwner"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode 10
+        versionName "1.5"
     }
     signingConfigs {
         // debug {
@@ -116,10 +116,6 @@ android {
 
 dependencies {
      //firebase
- implementation(platform("com.google.firebase:firebase-bom:32.5.0"))
- implementation("com.google.firebase:firebase-analytics")
- implementation("com.google.firebase:firebase-messaging")
- implementation("com.google.firebase:firebase-analytics-ktx")
  //firebase
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")

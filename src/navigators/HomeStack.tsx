@@ -6,7 +6,6 @@ import { generalStyles } from '../screens/utils/generatStyles';
 import { COLORS } from '../theme/theme';
 import AllTransactions from '../screens/AllTransactions';
 import TransactionDetails from '../screens/TransactionDetails';
-import PaymentScreen from '../screens/PaymentScreen';
 import ArrowBack from '../components/ArrowBack';
 import { RootState } from '../redux/store/dev';
 import { useSelector } from 'react-redux';
@@ -226,26 +225,6 @@ const HomeStack = () => {
             </Stack.Screen>
             {/* edit property services */}
 
-
-            {/* payments screen  */}
-            <Stack.Screen
-                name="Payment"
-                component={PaymentScreen}
-
-                options={{
-                    animation: 'slide_from_bottom',
-                    title: 'Payment',
-                    headerStyle: generalStyles.headerStyle,
-                    headerTitleStyle: generalStyles.titleHeaderStyles,
-                    headerTintColor: COLORS.primaryBlackHex,
-                    headerTitleAlign: 'center',
-                    headerLeft: () => (
-                        <ArrowBack />
-                    ),
-                }}
-            >
-            </Stack.Screen>
-            {/* payments screen */}
         </Stack.Navigator>
     )
 }
